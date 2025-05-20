@@ -523,7 +523,16 @@ nav {
     width: 23%;
   }
 }
-@media screen and (min-width: 374px) {
+@media screen and (min-width: 389px) {
+  .product-detail p {
+    width: 36%;
+  }
+  .original-price {
+    margin-right: 12rem;
+  }
+  .attribution {
+    width: 30%;
+  }
 }
 @media screen and (min-width: 424px) {
 }
