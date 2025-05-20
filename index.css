@@ -518,12 +518,19 @@ nav {
   .add-to-cart-container img {
     width: 0.55rem;
   }
-  .attribution {
+.attribution {
+    margin-top: -2rem;
     font-size: 6px;
-    width: 23%;
+    width: 40%;
   }
 }
 @media screen and (min-width: 389px) {
+  .side-menu{
+    height: 85vw;
+  }
+  .shadow-div{
+    height: 73vw; 
+  }
   .product-detail p {
     width: 36%;
   }
