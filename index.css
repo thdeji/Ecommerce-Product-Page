@@ -525,20 +525,197 @@ nav {
   }
 }
 @media screen and (min-width: 389px) {
-  .side-menu{
-    height: 85vw;
+  .side-menu {
+    width: 15rem;
+    height: 53rem;
+    padding: 0.05rem;
   }
-  .shadow-div{
-    height: 73vw; 
+  .side-menu ul {
+    gap: 2rem;
+    font-size: 12px;
+    margin-left: 1rem;
+  }
+  .shadow-div {
+    width: 16rem;
+    height: 55rem;
+    left: 6rem;
+  }
+  .nav-bar {
+    width: 95vw;
+    padding: 1rem 1rem 1rem 0.25rem;
+  }
+  .hamburger-menu {
+    gap: 0.25rem;
+  }
+  .ham-bun {
+    padding: 0.1rem;
+    width: 1.5rem;
+  }
+  .hamburgerMenu-and-logoContainer,
+  .cartIcon-and-imageAvatar {
+    gap: .75rem;
+  }
+  .logo-container img {
+    width: 8rem;
+  }
+  .image-avatar-container img {
+    width: 1.5rem;
+  }
+  .cart-icon-container img {
+    width: 1.5rem;
+  }
+  .quantity-indicator {
+    font-size: 10px;
+    width: .5rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-left: 20.5rem;
+    margin-top: -0.6rem;
+    z-index: 97;
+  }
+  .cart-content {
+    gap: 1.5rem;
+    background-color: white;
+    margin-left: 0.5rem;
+    width: 23.5rem;
+    height: 15rem;
+    margin-top: 4.5rem;
+    border-radius: 0.25rem;
+  }
+  .cart-label {
+    font-size: 15px;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+  }
+  .cart-label-line {
+    padding: .5px;
+  }
+  .cart-selection {
+    display: flex;
+    gap: 2rem;
+    margin-left: 0.5rem;
+  }
+  .selection-thumbnail img {
+    width: 3.5rem;
+  }
+  .selection-details {
+    width: 60%;
+    line-height: 1rem;
+    font-size: 15px;
+  }
+  .remove-from-cart img {
+    width: 1rem;
+  }
+  .cart-empty {
+    margin-left: 0rem;
+    width: 23.5rem;
+    height: 10rem;
+    margin-top: 4.5rem;
+    font-size: 15px;
+  }
+  .checkout-button {
+    font-size: 12px;
+    padding: 1rem;
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+  }
+  .previous-arrow {
+    top: 10rem;
+    left: 1rem;
+    padding: 0.05rem 0.25rem 0.25rem 0.5rem;
+    width: 0.5rem;
+  }
+  .previous-arrow img {
+    width: 0.25rem;
+  }
+  .next-arrow {
+    top: 10rem;
+    left: 22rem;
+    padding: 0.05rem 0.25rem 0.25rem 0.5rem;
+    width: 0.5rem;
+  }
+  .next-arrow img {
+    width: 0.25rem;
+  }
+  .products {
+    margin-top: 3rem;
+    position: absolute;
+    width: 100vw;
+    height: 75vw;
+    z-index: 4;
+  }
+  .sneaker-company {
+    padding-top: 22rem;
+    margin-left: 1rem;
+    font-size: 12px;
+  }
+  .product-detail h1 {
+    margin-top: 0.75rem;
+    width: 60%;
+    margin-left: -1.2rem;
+    font-size: 20px;
   }
   .product-detail p {
-    width: 36%;
+    width: 85%;
+    font-size: 14px;
+    line-height: 1.25rem;
+    margin-left: -1.2rem;
+  }
+  .pricing-container {
+    gap: 0.1rem;
+    margin-left: 0.35rem;
+    margin-right: 4.5rem;
+    margin-top: 0.75rem;
+  }
+  .new-price-and-discount-container {
+    display: flex;
+    gap: 0.25rem;
+  }
+  .new-price {
+    font-size: 9px;
+  }
+  .discount-container {
+    padding: 0.15rem 0.35rem;
+    border-radius: 0.25rem;
   }
   .original-price {
-    margin-right: 12rem;
+    font-size: 7px;
+    margin-right: 7.5rem;
+  }
+  .discount {
+    font-size: 7px;
+    font-weight: 600;
+  }
+  .quantity-selector {
+    margin-top: -1rem;
+    font-size: 6px;
+    width: 7rem;
+    padding: 0.5rem;
+    margin-left: 0.25rem;
+  }
+  #plusIcon img {
+    width: 0.45rem;
+  }
+  #minusIcon img {
+    width: 0.5rem;
+  }
+  .add-to-cart-container {
+    font-size: 6px;
+    width: 7rem;
+    padding: 0.5rem;
+    margin-left: 0.25rem;
+    border-radius: 0.15rem;
+  }
+  .add-to-cart-container img {
+    width: 0.55rem;
   }
   .attribution {
-    width: 30%;
+    margin-top: -2rem;
+    font-size: 6px;
+    width: 40%;
   }
 }
 @media screen and (min-width: 424px) {
