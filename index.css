@@ -328,4 +328,18 @@ nav {
   color: var(--Very-dark-blue);
   font-weight: bold;
 }
+@media screen and (min-width: 424px){
+  .nav-bar{
+    min-width: 25rem;
+  }
+  .quantity-indicator{
+    margin-left: 23rem;
+  }
+  .products{
+    width: 26.5rem;
+  }
+ .cart-content{
+  margin-right: 1rem;
+ }
+}
 
