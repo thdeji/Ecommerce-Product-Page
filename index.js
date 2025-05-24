@@ -17,6 +17,11 @@ const checkoutProductPrice = document.getElementById('checkoutProductPrice');
 const checkoutQuantity = document.getElementById('checkoutQuantity');
 const checkoutTotal = document.getElementById('checkoutTotal');
 const cartEmpty = document.querySelector('.cart-empty');
+const productOneThumbnail = document.querySelector('.product-1-thumbnail');
+const productTwoThumbnail = document.querySelector('.product-2-thumbnail');
+const productThreeThumbnail = document.querySelector('.product-3-thumbnail');
+const productFourThumbnail = document.querySelector('.product-4-thumbnail');
+
 
 
 closeMenuButton.addEventListener("click", function (e) {
@@ -89,4 +94,29 @@ if(quantityIndicator.classList.contains('hide')){
 removeFromCart.addEventListener('click', function(e){
   cartEmpty.classList.remove('hide');
  quantityIndicator.classList.add('hide');
+});
+
+productOneThumbnail.addEventListener('click', function(e){
+  products[0].style.zIndex = 5;
+  products[1].style.zIndex = 4;
+  products[2].style.zIndex = 4;
+  products[3].style.zIndex = 4;
+});
+productTwoThumbnail.addEventListener('click', function(e){
+  products[1].style.zIndex = 5;
+  products[0].style.zIndex = 5;
+  products[2].style.zIndex = 4;
+  products[3].style.zIndex = 4;
+});
+productThreeThumbnail.addEventListener('click', function(e){
+  products[2].style.zIndex = 5;
+  products[0].style.zIndex = 5;
+  products[1].style.zIndex = 4;
+  products[3].style.zIndex = 4;
+});
+productFourThumbnail.addEventListener('click', function(e){
+  products[3].style.zIndex = 5;
+  products[0].style.zIndex = 5;
+  products[1].style.zIndex = 4;
+  products[2].style.zIndex = 4;
 });
